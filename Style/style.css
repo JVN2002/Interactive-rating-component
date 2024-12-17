@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", serif;
+    font-style: normal;
+}
+
+.RatingBox{
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    height: auto;
+    padding: 25px 25px 25px 25px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img.estrela{
+    background-color: hsla(217, 12%, 63%, 0.166);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.RatingBox h1{
+    color: hsl(0, 0%, 100%);
+}
+
+.RatingBox p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+
+label{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: hsla(217, 12%, 63%, 0.166);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    border-radius: 50%; /* Deixa o botão circular */
+    margin-right: 21px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+input[type="radio"]:hover + label {
+    background-color: hsl(25, 97%, 53%);
+    
+}
+
+input[type="radio"]:hover + label p{
+    color: hsl(213, 19%, 18%);
+}
+
+input[type="radio"]:checked + label {
+    background-color: white;
+  }
+
+input[type="radio"]:checked + label p{
+    color: hsl(213, 19%, 18%);
+  }
+
+.btnSubmit {
+	background-color:hsl(25, 97%, 53%);
+	border-radius:36px;
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(213, 19%, 18%);
+	font-family:Arial;
+	font-size:15px;
+	padding:14px 150px;
+	font-family: "Overpass", serif;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btnSubmit:hover {
+	background-color:white;
+}
+.btnSubmit:active {
+	position:relative;
+	top:1px;
+}

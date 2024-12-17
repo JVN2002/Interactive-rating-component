@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="./Style/style.css">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.google.com/specimen/Overpass">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="RatingBox">
+    <img src="images/icon-star.svg" alt="estrela" class="estrela">
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+    
+    <form action="">
+      <input type="radio" id="OP1" name="nota" value="1">
+      <label for="OP1">
+        <p><b>1</b></p>
+      </label>
+      <input type="radio" id="OP2" name="nota" value="2">
+      <label for="OP2">
+        <p><b>2</b></p>
+      </label>
+      <input type="radio" id="OP3" name="nota" value="3">
+      <label for="OP3">
+        <p><b>3</b></p>
+      </label>
+      <input type="radio" id="OP4" name="nota" value="4">
+      <label for="OP4">
+        <p><b>4</b></p>
+      </label>
+      <input type="radio" id="OP5" name="nota" value="5">
+      <label for="OP5">
+        <p><b>5</b></p>
+      </label>
+
+      <br><br>
+      <input type="submit" class="btnSubmit">
+    </form>
+  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/JVN2002" target="_blank">J V N</a>.
+    </div>
+  </footer>
+  <script src="./JS/script.js"></script>
+</body>
+</html>
