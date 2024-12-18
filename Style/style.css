@@ -4,6 +4,8 @@ body{
     font-style: normal;
 }
 
+/*Rating windonw*/
+
 .RatingBox{
     background-color: hsl(213, 19%, 18%);
     width: 350px;
@@ -88,4 +90,19 @@ input[type="radio"]:checked + label p{
 .btnSubmit:active {
 	position:relative;
 	top:1px;
+}
+
+/*Thanks windonw*/
+
+.RatingBox .agradecimentos{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.RatingBox .agradecimentos p.score{
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(217, 12%, 63%, 0.166);
+    padding: 3px 20px;
+    border-radius: 20px;
 }
